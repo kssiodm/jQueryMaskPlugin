@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif'
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer{
+    background-color: #25bbe0;
+    padding-top: 16px;
+    color: #fff;
+}
+
+header > .container,
+footer > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+header button{
+    font-size: 20px;
+    height: 50px;
+    width: 15%;
+}
+
+button{
+    padding: 8px;
+    border: none;
+    background-color: #119756;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    border-bottom: 4px solid #000;
+}
+
+button:hover{
+    background-color: #005427;
+    text-transform: uppercase
+}
+
+.form_campo{
+    margin-bottom: 16px;
+}
+
+.form_campo label{
+    font-weight: bold;
+    display: block;
+}
+
+.form_campo input,
+.form_campo textarea{
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form_campo textarea{
+    resize: none;
+    height: 120px;
+}
+form{
+    margin-top: 15px;
+    max-width: 380px;
+    display: none;
+    margin-bottom: 290px;
+}
+
+form button{
+    width: 100%;
+    max-width: 160px;
+    border-bottom: 4px solid #000;
+}
+
+form button:hover{
+    background-color: #005427;
+    text-transform: uppercase
+}
+
+#botao_cancelar{
+    background-color: red;
+}
+
+#botao_cancelar:hover{
+    background-color: #BD0303;
+}
